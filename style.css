@@ -1,0 +1,44 @@
+
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.calcButtons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);  
+}
+
+
+
+
+
+.dark-input {
+    background-color: #333333;
+    color: #ffffff;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.dark-button {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.equal.dark-button {
+    background-color: #c0392b;
+}
+
+.dark-button:hover {
+    background-color: #555555;
+}
